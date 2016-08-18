@@ -1091,7 +1091,7 @@ textarea.textarea2 {
     opacity: 1;
     transform: translateX(0);
     -webkit-transform: translateX(0);
-    -moz-transform: translateX(0)
+    -moz-transform: translateX(0);
 }
 
 @media (min-width:768px) {
@@ -1102,7 +1102,7 @@ textarea.textarea2 {
         text-align: center;
         padding-top: 10px;
         margin-left: -10px;
-        margin-right: -10px
+        margin-right: -10px;
     }
     .navbar .nav:before {
         content: '';
@@ -1135,7 +1135,7 @@ textarea.textarea2 {
 @media (min-width:768px) {
     .navbar li {
         display: inline-block;
-        margin-left: 30px
+        margin-left: 30px;
     }
 }
 
@@ -1145,10 +1145,14 @@ textarea.textarea2 {
     text-transform: uppercase;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out
+    transition: all .3s ease-in-out;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 0px 15px 0px;
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
     .navbar li a {
         letter-spacing: 2px;
         font-size: 24px;
@@ -1264,7 +1268,7 @@ textarea.textarea2 {
 .navbar-brand {
     display: block;
     height: auto;
-    width: 140px
+    width: 100%;
 }
 
 @media (min-width:768px) {
@@ -2474,12 +2478,12 @@ cite {
 
 .main-content {
     padding-top: 0;
-    padding-bottom: 0
+    padding-bottom: 0;
 }
 
 @media (min-width:992px) {
     .main-content {
-        min-height: 500px
+        min-height: 500px;
     }
 }
 
@@ -2830,7 +2834,7 @@ cite {
 }
 
 .intro-item-title {
-    font-size: 18px;
+    font-size: 40px;
     font-family: 'Playfair Display', serif;
     font-style: italic;
     -webkit-transition: all .6s ease-in-out;
@@ -2846,8 +2850,8 @@ cite {
 
 @media (min-width:768px) {
     .intro-item-title {
-        font-size: 58px;
-        letter-spacing: -1px
+        font-size: 50px;
+        letter-spacing: -1px;
     }
 }
 
@@ -2866,7 +2870,7 @@ cite {
 }
 
 .intro-item-title2 {
-    font-size: 14px;
+    font-size: 22px;
     font-family: Montserrat, sans-serif;
     margin-top: 10px;
     font-weight: 400;
@@ -2878,7 +2882,7 @@ cite {
     -moz-transform: translateY(30px);
     opacity: 0;
     -webkit-transition-delay: 1.4s;
-    transition-delay: 1.4s
+    transition-delay: 1.4s;
 }
 
 @media (min-width:992px) {
@@ -2947,7 +2951,7 @@ cite {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
     opacity: 1;
-    background-color: rgba(119, 61, 61, 0.5);
+    background-color: rgba(61, 119, 78, 0.5);
 }
 
 .active .intro-item-title2 {
@@ -3819,11 +3823,7 @@ tem-bar {
         width: 75%;
     }
 }
-
-#map iframe {
-    /* height: 100%; */
-}
-
+ 
 .contact-box {
     padding: 20px;
     background: #ddd
@@ -3948,4 +3948,13 @@ a:active,
 a:focus {
     outline: 0!important
 }
- 
+
+.fixed {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1000 !important;
+  background: url(../img/menu_bg.jpg);
+}
+  
