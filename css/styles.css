@@ -2887,8 +2887,9 @@ cite {
 
 @media (min-width:992px) {
     .intro-item-title2 {
-        font-size: 22px;
-        letter-spacing: -1px
+        font-size: 24px;
+        letter-spacing: 0px;
+        text-shadow: 2px 2px #000000;
     }
 }
 
@@ -2958,7 +2959,7 @@ cite {
     transform: translateY(0);
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
-    opacity: 1
+    opacity: 1;
 }
 
 .active .intro-i .intro-item-buttons .btn-default:before {
