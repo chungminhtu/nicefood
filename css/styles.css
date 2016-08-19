@@ -2861,12 +2861,12 @@ cite {
     background: url(../img/slide-bar.png) center center no-repeat;
     height: 18px;
     margin-bottom: 10px;
-    opacity: 0;
+    opacity: 1;
     -webkit-transition: all .6s ease-in-out;
     -moz-transition: all .6s ease-in-out;
     transition: all .6s ease-in-out;
     -webkit-transition-delay: 1.2s;
-    transition-delay: 1.2s
+    transition-delay: 1.2s;
 }
 
 .intro-item-title2 {
