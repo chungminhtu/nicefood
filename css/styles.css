@@ -3826,7 +3826,7 @@ tem-bar {
         width: 75%;
     }
 }
- 
+
 .contact-box {
     padding: 20px;
     background: #ddd
@@ -3953,11 +3953,16 @@ a:focus {
 }
 
 .fixed {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  z-index: 1000 !important;
-  background: url(../img/menu_bg.jpg);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1000 !important;
+    background: url(../img/menu_bg.jpg);
 }
-  
+
+p.phone {
+    font-size: 33px;
+    font-weight: bold;
+    color: #00e2ff;
+}
