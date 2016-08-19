@@ -6,7 +6,7 @@
     $('#menu').wrap('<div class="menu-placeholder"></div>')
     $('.menu-placeholder').height($('#menu').outerHeight());
     $(window).on('scroll', function () {
-      if ($(window).scrollTop() > 100) {
+      if ($(window).scrollTop() > 500) {
         $('#menu').addClass('fixed');
       } else {
         $('#menu').removeClass('fixed');

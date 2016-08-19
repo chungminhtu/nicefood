@@ -577,13 +577,13 @@ textarea.textarea2 {
     -webkit-transition: all .6s ease-in-out;
     -moz-transition: all .6s ease-in-out;
     transition: all .6s ease-in-out;
-    font-family: 'Playfair Display', serif
+    font-family: 'Playfair Display', serif;
 }
 
 @media (min-width:768px) {
     #page-loader {
         display: block;
-        visibility: visible
+        visibility: visible;
     }
 }
 
@@ -683,7 +683,9 @@ textarea.textarea2 {
 }
 
 .loader-name img {
-    max-width: 230px
+    /* max-width: 230px */
+    margin-left: -300px;
+    padding-top: 10px;
 }
 
 .loader-job {
